@@ -1,53 +1,134 @@
-body{
-    background: #CCCCCC;
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-.img-banner{
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.img-banner {
     width: 100%;
 }
 
-.titulo-principal{
+.titulo-principal {
     padding-left: 20px;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 30px;
+.sobre {
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
 }
 
-.titulo-centralizado{
+.sobre:hover {
+    border-color:#C78C19
+}
+
+.sobre:active {
+    border-color: #088C19;
+}
+
+.sobre h2{
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
+    padding-bottom: 20px;
+
 }
 
-p{
+.paragrafo-sobre {
     text-align: center;
+    padding-bottom: 20px;
 }
 
-#missao{
-    font-size: 20px;
+.img-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
-em strong{
-    color: #FF0000;
+.beneficios {
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
 }
 
-.beneficios{
-    background: #FFFFFF;
+.beneficios:hover {
+    border-color:#C78C19
+}
+
+.beneficios:active {
+    border-color: #088C19;
+}
+
+.beneficios h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.beneficios ul {
+    text-align: center;
+    margin: 20px;
+}
+
+.beneficios li {
+    display: inline-block;
     padding: 20px;
 }
 
-.lista-beneficios{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.img-beneficios {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
-.itens{
-    font-style: italic;
+footer {
+    text-align: center;
+    background: url("../produtos/img/bg.jpg");
+    padding: 40px 0;
 }
 
-.img-beneficios{
-    width: 50%;
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
 }
-
