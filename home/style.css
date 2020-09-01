@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -38,86 +42,31 @@ nav a:hover {
 }
 
 .titulo-principal {
-    padding-left: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-.sobre {
-    padding: 20px;
-    margin: 20px;
-    box-sizing: border-box;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #000000;
-    border-radius: 10px;
+.principal p {
+    margin: 0 0 1em;
 }
 
-.sobre:hover {
-    border-color:#C78C19
-}
-
-.sobre:active {
-    border-color: #088C19;
-}
-
-.sobre h2{
-    font-size: 22px;
+.principal strong {
     font-weight: bold;
-    text-align: center;
-    padding-bottom: 20px;
-
 }
 
-.paragrafo-sobre {
-    text-align: center;
-    padding-bottom: 20px;
+.principal em {
+    font-style: italic;
 }
 
-.img-banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
-.beneficios {
-    padding: 20px;
-    margin: 20px;
-    box-sizing: border-box;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #000000;
-    border-radius: 10px;
-}
-
-.beneficios:hover {
-    border-color:#C78C19
-}
-
-.beneficios:active {
-    border-color: #088C19;
-}
-
-.beneficios h3 {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.beneficios ul {
-    text-align: center;
-    margin: 20px;
-}
-
-.beneficios li {
-    display: inline-block;
-    padding: 20px;
+.img-utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 .img-beneficios {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 60%;
 }
 
